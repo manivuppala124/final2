@@ -1,0 +1,44 @@
+/* Grid.css */
+
+/* Custom CSS for the Recommended City Section */
+.recommended-city-container {
+  background-color: #f3f4f6;
+  border: 2px solid #007bff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-bottom: 30px;
+}
+
+.recommended-city-header {
+  font-family: 'Poppins', sans-serif;
+  font-size: 2rem;
+  font-weight: 700;
+  color: #007bff;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.recommended-city-image {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain; /* Ensures the entire image is visible */
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.recommendation-text {
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.1rem;
+  font-weight: 700; /* Sets the text to bold */
+  color: #343a40;
+  line-height: 1.6;
+}
+
+.recommendation-text p {
+  margin-bottom: 10px;
+}
+
+.recommendation-text p::before {
+  content: ""; /* Removes bullet points */
+}

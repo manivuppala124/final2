@@ -1,0 +1,50 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.fullscreen-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.explore-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  background: white(0, 0, 0, 0);
+  text-align: center;
+}
+
+.explore-overlay h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.explore-overlay button {
+  font-size: 1.5rem;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.but button{
+  background-color: orange;
+  color:white;
+}
+.but button:hover{
+  background-color: transparent;
+  color:orange;
+}

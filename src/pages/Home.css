@@ -1,0 +1,21 @@
+/* home.css
+.container-fluid {
+  padding: 0;
+  margin: 0;
+}
+
+#background-video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.text-white {
+  color: white;
+}
+
+.btn-primary {
+  background-color: blue;
+  color: white;
+} */
